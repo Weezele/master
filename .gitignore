@@ -1,0 +1,22 @@
+# Python environments
+.venv/
+.venv_gpu/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset / training files
+*.csv
+*.zip
+*.pt
+*.pth
+data/
+datasets/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
