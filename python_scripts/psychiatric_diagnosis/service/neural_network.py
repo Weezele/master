@@ -536,7 +536,7 @@ class NeuralNetworkService:
 
         # Quick training
         fitness_params = hyperparameters.copy()
-        fitness_params["early_stopping_patience"] = quick_epochs
+        fitness_params["early_stopping_patience"] = 15
         result = self.train(
             data_split,
             fitness_params,

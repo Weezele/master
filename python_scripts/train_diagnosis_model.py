@@ -46,20 +46,20 @@ def main():
     parser.add_argument(
         "--population",
         type=int,
-        default=20,
-        help="AWOA population size (default: 20)"
+        default=25,
+        help="AWOA population size (default: 25)"
     )
     parser.add_argument(
         "--iterations",
         type=int,
-        default=30,
-        help="AWOA max iterations (default: 30)"
+        default=10,
+        help="AWOA max iterations (default: 10)"
     )
     parser.add_argument(
         "--optimize-metric",
         choices=["loss", "accuracy"],
-        default="loss",
-        help="Metric to optimize during AWOA: loss or accuracy (default: loss)"
+        default="accuracy",
+        help="Metric to optimize during AWOA: loss or accuracy (default: accuracy)"
     )
 
     args = parser.parse_args()

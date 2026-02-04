@@ -53,9 +53,9 @@ class AWOAConfig:
     - Random search (exploration)
     """
 
-    # Population settings - 40 whales as requested
-    population_size: int = 40       # 40 whales for thorough exploration
-    max_iterations: int = 15        # Iterations per whale evaluation
+    # Population settings
+    population_size: int = 25       # 25 whales for optimization
+    max_iterations: int = 10        # Iterations per whale evaluation
 
     # AWOA specific parameters
     a_initial: float = 2.0      # Initial value of 'a' parameter (exploration)

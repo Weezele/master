@@ -217,7 +217,7 @@ class PsychiatricDiagnosisApp:
             return self.nn_service.evaluate_fitness(
                 self.data_split,
                 params,
-                quick_epochs=30,  # More epochs for accurate fitness evaluation
+                quick_epochs=50,  # More epochs for accurate fitness evaluation
                 fitness_metric=self.fitness_metric
             )
 

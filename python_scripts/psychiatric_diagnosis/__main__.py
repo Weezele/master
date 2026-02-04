@@ -47,14 +47,14 @@ Features:
     parser.add_argument(
         "--population",
         type=int,
-        default=40,
-        help="AWOA population size / number of whales (default: 40)"
+        default=25,
+        help="AWOA population size / number of whales (default: 25)"
     )
     parser.add_argument(
         "--iterations",
         type=int,
-        default=15,
-        help="AWOA max iterations (default: 15)"
+        default=10,
+        help="AWOA max iterations (default: 10)"
     )
     parser.add_argument(
         "--optimize-metric",
